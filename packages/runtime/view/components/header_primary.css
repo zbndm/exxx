@@ -1,0 +1,29 @@
+.header-primary {
+  padding: 16px 24px;
+  background-color: #00bbff;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.header-primary ::selection {
+  background-color: #da2d76;
+}
+
+.header-primary__icon {
+  height: 18px;
+  opacity: 0.9;
+  padding-right: 8px;
+}
+
+.header-primary__logo {
+  height: 8px;
+  opacity: 0.8;
+  padding: 8px 0;
+}
+
+.header-primary__host {
+  padding: 16px 0 0 0;
+}
+
+.header-primary__country {
+  padding: 16px 0 8px 0;
+}

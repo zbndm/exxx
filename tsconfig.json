@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "strict": true,
+    "sourceMap": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+
+  "include": ["packages/**/*.ts", "packages/**/*.tsx"]
+}

@@ -1,0 +1,19 @@
+.app {
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding-top: 88px;
+}
+
+.app__section {
+  padding: 24px 32px;
+}
+
+.app__download {
+  display: none;
+}
+
+@media only screen and (min-width: 360px) {
+  .app__download {
+    display: block;
+  }
+}
